@@ -4,6 +4,7 @@ body{
 }
 h1{
     font-size: 34px;
+    text-align: center;
 }
 h2{
     font-size: 24px;
@@ -13,12 +14,18 @@ h3{
 }
 a{
     text-decoration: unset;
-    color: red;
-    font-size: 18px
+    color: white;
+    font-size: 18px;
+    background-color: coral;
+    padding: 5px 20px;
+    border-radius: 25px;
+    transition: all 0.4s;
 }
 a:hover{
     text-decoration: unset;
     color: black;
+    background-color: red;
+
 }
 #logo{
 width: 350px;
@@ -32,7 +39,8 @@ img{
     display: block;
 }
 p > a{
-    color:green;
+    
+
     font-size: 22px;
 }
 ul{
@@ -40,6 +48,23 @@ ul{
     padding: 0;
 }
 li{
-    text-align: center;
+    
     padding: 15px;
+}
+.content{
+    border-radius: 25px;
+    border: 2px dotted black;
+    padding: 5px 15px;
+    background-color: wheat;
+    margin: 10px;
+}
+.breadcumb a{
+    position: absolute;
+    right: 0;
+    top: 2.3vw;
+}
+.back{
+    padding: 5px 8px;
+    font-size: 30px;
+   
 }
